@@ -1,0 +1,16 @@
+* {
+  border: 1px solid red ;
+}
+
+table {
+    border-collapse: collapse; /* supprime l’espacement entre cellules */
+    width: 100%; /* optionnel */
+}
+
+table, th, td {
+    border: 1px solid black; /* équivalent à border="1" */
+}
+
+th, td {
+    padding: 10px; /* équivalent à cellpadding="10" */
+}
